@@ -1,0 +1,21 @@
+In this project, it is a demonstration of basic properties of css and javascript 
+
+css :
+position = 	there are four kind of value it can take sticky, absolute, relative, and fixed.
+		sticky is the combination of fixed and relative.
+		relative moves it location from it's original sticky location.
+		absolute moves it location from it's relative parent or the original sticky html itself.
+		
+
+viewport = 	it is the actual space available to the viewer useful for responsiveness, have two property vh and vw.
+
+flex =	flex are used for making flex cards and customising them.
+
+JAVASCRIPT :
+
+document.querySelector() = selects a  particular class from the html document.
+document.querySelectorAll() = references to all instances and returns a node array.
+
+.classList() = .classList method for selected class from css.
+		consists of add and remove method. (for method chaining purposes.)
+
