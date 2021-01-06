@@ -1,0 +1,14 @@
+html :
+disabled It generally disables the click from the selected class
+
+css:
+display : mainly have 6 types
+
+        basic ones:
+        none = as if the element is completely removed from the space.
+        inline: tries to minimize the space to wrap the contents and allows another content from it's ending position.
+        block : complete cover the entire width alloted to it. It inserts a newline above and below it.
+        inline-block: acts as inline but allows you to set width and height as well for the property.
+
+        complex:
+        flexbox : I will gain complete info on it.
