@@ -1,0 +1,12 @@
+js
+.innerhtml : this property allows to write inside the tag.
+and more imporvement: getElementById("instead of taking class, Id can also be taken")
+
+flex-wrap : shortcut for making text responsive.
+
+flex-direction : default origin is row.
+
+
+//css:
+
+min-height: use it frequently instead of expanding image.
