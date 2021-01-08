@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    /* min-height: 100vh; */
+    /* display: flex;
+    justify-content: center;
+    align-content: center; */
+    font-family: "Poppins",sans-serif;
+    /* margin: 0; */
+}
+
+button{
+    background-color: rebeccapurple;
+    border: none;
+    color: whitesmoke;
+    position: fixed; /* as soon as it is made fixed it is out of the flex box and it's position is fixed even for scrolling. */
+    top: 20px;
+    right: 20px;
+    padding: 1rem;
+    font-size: larger;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+
+}
+
+button.active{
+    background-color: #669933;
+    transform: translateX(-100px);
+
+}
+
+
+nav{
+    background-color: rebeccapurple;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    padding: 2rem ;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+}
+
+nav.active{
+    transform: translateX(0);
+}
+
+nav ul{
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+
+
+
+nav ul li{
+    padding: 1rem 0;
+}
+
+nav ul li a{
+    color: whitesmoke;
+    text-decoration: none; /* This property is useful for removing pre-built design for any type of text */
+}
+
